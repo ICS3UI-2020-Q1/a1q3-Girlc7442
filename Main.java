@@ -15,17 +15,17 @@ public class Main {
     Scanner input = new Scanner(System.in);
 
     //Ask the user how many chargers they want
-    System.out.println("How many Chromebook Chargers are being purchased?");
+    System.out.println("How many chromebook chargers?");
     //initialize how many chargers they are buying
     int chromebookCharger = input.nextInt();
 
     //ask the user how many motherboards they want
-    System.out.println("How many Motherboards are being purchased");
+    System.out.println("How many motherboards?");
     //initialize how many motherboards they are buying
     int motherboard = input.nextInt();
 
     //ask the user how many mice they want
-    System.out.println("How many Computer Mouses are being purchased");
+    System.out.println("How many mice?");
     //initialize how many mice they are buying
     int computerMouse = input.nextInt();
 
@@ -43,18 +43,18 @@ public class Main {
     final double subtotal = subtotalChromebook + subtotalMotherboard + subtotalMouse;
 
     //Prints the subtotal to the screen
-    System.out.println("Subtotal $" + subtotal);
+    System.out.println("Subtotal = $" + subtotal);
 
     //Calculates the tax
     final double tax = subtotal * 0.13;
 
     //Prints the tax to the screen
-    System.out.println("Taxes $" + tax);
+    System.out.println("Taxes = $" + tax);
     
     //Calculates the final total
     final double total = subtotalChromebook + subtotalMotherboard + subtotalMouse + tax;
 
     //Prints the total to the screen
-    System.out.println("Total $" + total);
+    System.out.println("Total = $" + total);
   }
 }
